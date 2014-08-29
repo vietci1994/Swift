@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		521B9AB919A378A4004DBCEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B9AB819A378A4004DBCEC /* AppDelegate.swift */; };
-		521B9ABB19A378A4004DBCEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B9ABA19A378A4004DBCEC /* ViewController.swift */; };
 		521B9ABE19A378A4004DBCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521B9ABC19A378A4004DBCEC /* Main.storyboard */; };
 		521B9AC019A378A4004DBCEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521B9ABF19A378A4004DBCEC /* Images.xcassets */; };
 		521B9ACC19A378A4004DBCEC /* Day02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B9ACB19A378A4004DBCEC /* Day02Tests.swift */; };
+		521B9AD719A3824D004DBCEC /* CapSoNhanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B9AD619A3824D004DBCEC /* CapSoNhanViewController.swift */; };
+		521B9AD919A390AF004DBCEC /* TaoFibonaci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521B9AD819A390AF004DBCEC /* TaoFibonaci.swift */; };
+		52ACDF4419A6463F00663B90 /* PhuongTrinhBac2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACDF4319A6463F00663B90 /* PhuongTrinhBac2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +30,14 @@
 		521B9AB319A378A4004DBCEC /* Day02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Day02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		521B9AB719A378A4004DBCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		521B9AB819A378A4004DBCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		521B9ABA19A378A4004DBCEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		521B9ABD19A378A4004DBCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		521B9ABF19A378A4004DBCEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		521B9AC519A378A4004DBCEC /* Day02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521B9ACA19A378A4004DBCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		521B9ACB19A378A4004DBCEC /* Day02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02Tests.swift; sourceTree = "<group>"; };
+		521B9AD619A3824D004DBCEC /* CapSoNhanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapSoNhanViewController.swift; sourceTree = "<group>"; };
+		521B9AD819A390AF004DBCEC /* TaoFibonaci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaoFibonaci.swift; sourceTree = "<group>"; };
+		52ACDF4319A6463F00663B90 /* PhuongTrinhBac2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhuongTrinhBac2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				521B9AB819A378A4004DBCEC /* AppDelegate.swift */,
-				521B9ABA19A378A4004DBCEC /* ViewController.swift */,
 				521B9ABC19A378A4004DBCEC /* Main.storyboard */,
+				521B9AD519A38188004DBCEC /* ViewControllers */,
 				521B9ABF19A378A4004DBCEC /* Images.xcassets */,
 				521B9AB619A378A4004DBCEC /* Supporting Files */,
 			);
@@ -107,6 +111,16 @@
 				521B9ACA19A378A4004DBCEC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		521B9AD519A38188004DBCEC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				521B9AD619A3824D004DBCEC /* CapSoNhanViewController.swift */,
+				521B9AD819A390AF004DBCEC /* TaoFibonaci.swift */,
+				52ACDF4319A6463F00663B90 /* PhuongTrinhBac2.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521B9ABB19A378A4004DBCEC /* ViewController.swift in Sources */,
+				521B9AD719A3824D004DBCEC /* CapSoNhanViewController.swift in Sources */,
+				521B9AD919A390AF004DBCEC /* TaoFibonaci.swift in Sources */,
+				52ACDF4419A6463F00663B90 /* PhuongTrinhBac2.swift in Sources */,
 				521B9AB919A378A4004DBCEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +411,7 @@
 				521B9AD119A378A4004DBCEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		521B9AD219A378A4004DBCEC /* Build configuration list for PBXNativeTarget "Day02Tests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +420,7 @@
 				521B9AD419A378A4004DBCEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
